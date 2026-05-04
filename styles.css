@@ -75,7 +75,7 @@
      .print-area {
          display: block;
          position: relative;
-         width: 13cm;
+         width: 12cm;
          height: 21cm;
      }
 
@@ -99,7 +99,7 @@
 
      #mascota_print {
          position: absolute;
-         top: 3cm;
+         top: 2cm;
          left: 1cm;
          width: 11cm;
          font-size: 14px;
@@ -107,7 +107,7 @@
 
      #nota_print {
          position: absolute;
-         top: 5cm;
+         top: 3cm;
          left: 1cm;
          width: 11cm;
          height: 5cm;
