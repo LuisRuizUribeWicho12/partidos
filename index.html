@@ -10,11 +10,18 @@
     <link rel="manifest" href="./manifest.json">
 
     <link rel="stylesheet" href="./styles.css">
+    
+    <!-- Sistema de autenticación -->
+    <script src="./auth.js"></script>
 </head>
 
 <body>
 
     <div class="form-container">
+        <div style="text-align: right; margin-bottom: 10px;">
+            <button onclick="cerrarSesion()" style="background-color: #f44336; font-size: 14px; padding: 6px 12px;">Cerrar Sesión</button>
+        </div>
+        
         <label>Nombre del dueño</label>
         <input type="text" id="dueno">
 

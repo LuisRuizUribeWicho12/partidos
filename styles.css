@@ -82,7 +82,7 @@
      /* Fecha y hora arriba a la derecha */
      .fecha-impresion {
          position: absolute;
-         top: 4.2cm;
+         top: 0.5cm;
          right: 1cm;
          font-size: 14px;
          text-align: right;
@@ -91,7 +91,7 @@
      /* Campos del formulario */
      #dueno_print {
          position: absolute;
-         top: 5.5cm;
+         top: 1cm;
          left: 1cm;
          width: 11cm;
          font-size: 14px;
@@ -99,7 +99,7 @@
 
      #mascota_print {
          position: absolute;
-         top: 7cm;
+         top: 3cm;
          left: 1cm;
          width: 11cm;
          font-size: 14px;
@@ -107,10 +107,10 @@
 
      #nota_print {
          position: absolute;
-         top: 8.5cm;
+         top: 5cm;
          left: 1cm;
          width: 11cm;
-         height: 8cm;
+         height: 5cm;
          font-size: 14px;
          line-height: 1.4;
      }
